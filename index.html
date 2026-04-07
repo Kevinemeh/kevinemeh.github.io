@@ -2,115 +2,151 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kevin Emeh | Portfolio</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<title>Kevin Emeh Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;scroll-behavior:smooth;}
-body{background:#0f4c5c;color:#333;}
-header, footer{position:fixed;width:100%;background:#0f4c5c;color:white;z-index:1000;padding:15px 30px;}
-header{top:0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,0.1);} 
-footer{bottom:0;text-align:center;border-top:1px solid rgba(255,255,255,0.1);} 
-nav a{color:white;margin:0 10px;text-decoration:none;font-size:14px;}
-.container{max-width:1200px;margin:auto;padding:100px 20px 80px;background:#f5f5f5;}
-section{margin-bottom:80px;}
-h1,h2,h3{color:#0f4c5c;margin-bottom:15px;}
-.hero{display:flex;flex-wrap:wrap;align-items:center;gap:30px;}
-.hero img{width:280px;border-radius:12px;}
-.hero-text{flex:1;}
-.btn{display:inline-block;background:#ff7f50;color:white;padding:12px 20px;border-radius:6px;text-decoration:none;margin-top:15px;}
-.socials a{margin-right:10px;color:#0f4c5c;font-size:20px;}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-.card{background:white;padding:20px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.05);} 
-.skills span{display:inline-block;background:#e0f7f9;padding:6px 10px;margin:5px;border-radius:6px;font-size:13px;}
-.services .card{border-left:4px solid #ff7f50;}
-.timeline .card{border-left:4px solid #0f4c5c;}
-.contact-form input, .contact-form textarea{width:100%;padding:10px;margin-bottom:10px;border:1px solid #ccc;border-radius:5px;}
-.contact-form button{background:#ff7f50;color:white;border:none;padding:12px 20px;border-radius:5px;cursor:pointer;}
-img.section-img{width:100%;max-width:400px;border-radius:12px;margin-top:20px;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+body{background:#0f4f4f;color:#333;}
+header, footer{position:fixed;width:100%;background:#0f4f4f;color:white;padding:15px 30px;z-index:1000;}
+header{top:0;}
+footer{bottom:0;text-align:center;}
+nav{display:flex;justify-content:space-between;align-items:center;}
+nav a{color:white;margin-left:15px;text-decoration:none;font-size:14px;}
+.container{padding:100px 20px 80px;max-width:1100px;margin:auto;}
+.section{background:white;padding:40px;margin-bottom:30px;border-radius:10px;}
+.hero{display:flex;flex-wrap:wrap;align-items:center;gap:20px;}
+.hero img{width:250px;border-radius:10px;}
+.btn{background:#ff7f50;color:white;padding:10px 20px;border:none;border-radius:5px;text-decoration:none;display:inline-block;margin-top:10px;}
+.social-icons a{color:#ffcc70;margin-right:10px;font-size:18px;}
+.skills, .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;}
+.card{background:#f5f5f5;padding:15px;border-radius:8px;}
+.contact-icons a{margin:10px;font-size:20px;color:#0f4f4f;}
+form input, form textarea{width:100%;padding:10px;margin:10px 0;border-radius:5px;border:1px solid #ccc;}
+form button{background:#ff7f50;color:white;padding:10px;border:none;border-radius:5px;cursor:pointer;width:100%;}
+img.full{width:100%;border-radius:10px;margin-top:20px;}
 </style>
 </head>
-<body>
-<header>
-<div><strong>Kevin Emeh</strong></div>
+<body><header>
 <nav>
+<div><strong>Kevin Emeh</strong></div>
+<div>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
 <a href="#services">Services</a>
-<a href="#work">Work</a>
 <a href="#contact">Contact</a>
+</div>
 </nav>
-</header><div class="container">
-<section class="hero">
-<img src="peak 1.jpg" alt="Kevin">
-<div class="hero-text">
+</header><div class="container"><section class="section hero">
+<img src="peak 1.jpg" alt="profile">
+<div>
 <h1>Kevin Emeh</h1>
-<h3>Commercial Growth Strategist | Business Development | Agribusiness & Supply Chain</h3>
+<p><strong>Commercial Growth Strategist | Business Development | Agribusiness & Supply Chain</strong></p>
 <p>I turn everyday interactions into measurable growth by connecting you to the right audience, with the right story, at the right moment.</p>
 <a href="#contact" class="btn">Let's build together</a>
-<div class="socials">
-<a href="https://www.linkedin.com/in/kevin-emeh"><i class="fab fa-linkedin"></i></a>
-<a href="https://wa.me/23407039329206"><i class="fab fa-whatsapp"></i></a>
+<div class="social-icons">
+<a href="https://www.linkedin.com/in/kevin-emeh" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://wa.me/23407039329206" target="_blank"><i class="fab fa-whatsapp"></i></a>
 </div>
 </div>
-</section><section id="about">
+</section><section id="about" class="section">
 <h2>About</h2>
 <p>Lagos-based. Growth-obsessed. People-first. I build commercial relationships that don't just close deals, they open doors, restore dignity, and compound over time.</p>
-<p>Over five years across telesales, logistics, agribusiness sourcing, supply chain, and strategic partnerships; I see where systems break and where value hides.</p>
-<p><em>"Every sweat should be a prerequisite stride towards achieving the perfect imperfection."</em></p>
-</section><section id="skills">
+<br>
+<p>Over Five years across telesales, logistics, agribusiness sourcing, supply chain, and strategic partnerships; haven't just given me experience, they've given me a lens. A lens for seeing where systems break, where people disengage, and exactly where value hides in plain sight.</p>
+</section><section id="skills" class="section">
 <h2>Skills & Tools</h2>
 <div class="skills">
-<span>Cold Calling</span><span>Supply Chain</span><span>Market Research</span><span>CRM</span><span>Strategic Thinking</span><span>Leadership</span><span>HubSpot</span><span>Salesforce</span><span>Excel</span>
+<div class="card">Cold Calling</div>
+<div class="card">Supply Chain Management</div>
+<div class="card">Market Analysis</div>
+<div class="card">Strategic Thinking</div>
+<div class="card">Leadership</div>
+<div class="card">HubSpot CRM</div>
+<div class="card">Salesforce</div>
+<div class="card">Google Analytics</div>
 </div>
-</section><section id="services" class="services">
+</section><section id="services" class="section">
 <h2>Services</h2>
-<div class="grid">
+<div class="services">
 <div class="card">Business Development & Sales Strategy</div>
-<div class="card">Partnership & Account Management</div>
-<div class="card">Agribusiness Sourcing & Supplychain</div>
-<div class="card">Creative Consulting & Content Writing</div>
-<div class="card">Logistics & Transport Management</div>
-<div class="card">Inventory Management & Procurement</div>
+<div class="card">Partnership Management</div>
+<div class="card">Agribusiness Supply Chain</div>
+<div class="card">Creative Consulting</div>
+<div class="card">Logistics Management</div>
+<div class="card">Procurement</div>
 </div>
-<img src="peak 2.jpg" class="section-img">
-</section><section id="work" class="timeline">
-<h2>Work History</h2>
-<div class="grid">
-<div class="card">
-<h3>Winich Inc</h3>
-<p>Sales & Supply Chain Lead</p>
-<p>Generated 100+ clients, NGN2.3B transactions, managed 3,237 farmers.</p>
+<img src="peak 2.jpg" class="full">
+</section><section class="section">
+<h2>Work Experience</h2><p><strong>Sales & Supply Chain Lead — Winich Inc (Aug 2022 - Present)</strong></p>
+<div class="skills">
+<div class="card"><strong>3,237+</strong><br>Farmers Managed</div>
+<div class="card"><strong>82</strong><br>Field Agents</div>
+<div class="card"><strong>100+</strong><br>Clients Acquired</div>
+<div class="card"><strong>15%</strong><br>Cost Reduction</div>
 </div>
-<div class="card">
-<h3>FriskaLife</h3>
-<p>Telesales & Delivery Manager</p>
-<p>Generated NGN300M annual revenue, built 18,000+ customers.</p>
+<ul>
+<li>Championed Produce Collateralized Credit (PCC) and BNPL programs, enabling farmers access to liquidity and offtakers to scale purchasing capacity.</li>
+<li>Managed large-scale operations across 6 states ensuring efficiency and performance tracking.</li>
+<li>Led business development initiatives and closed 30+ strategic contracts.</li>
+<li>Improved delivery performance by 12% through system optimization.</li>
+<li>Developed growth strategies using analytics and performance metrics.</li>
+</ul><br><p><strong>Telesales & Delivery Manager — FriskaLife (Jan 2024 - Mar 2026)</strong></p>
+<div class="skills">
+<div class="card"><strong>NGN300M+</strong><br>Annual Revenue</div>
+<div class="card"><strong>18,150+</strong><br>Customers</div>
+<div class="card"><strong>78%</strong><br>Conversion Rate</div>
+<div class="card"><strong>40%</strong><br>Repeat Purchases</div>
 </div>
-<div class="card">
-<h3>FAAN</h3>
-<p>Customer Service Officer</p>
-<p>95% satisfaction rate, improved resolution efficiency.</p>
-</div>
-</div>
-</section><section id="contact">
+<ul>
+<li>Executed structured telesales systems and revenue-driven campaigns.</li>
+<li>Scaled customer base rapidly through targeted acquisition strategies.</li>
+<li>Reduced delivery time from 5–7 days to 1–3 days.</li>
+<li>Managed CRM systems with high data accuracy and KPI tracking.</li>
+</ul><br><p><strong>Customer Service Officer — FAAN (Jul 2021 - Jul 2022)</strong></p>
+<ul>
+<li>Handled 30+ daily inquiries with 95% satisfaction rate.</li>
+<li>Reduced escalations by 20% and improved resolution time by 25%.</li>
+</ul><br><p><strong>Protocol Operations Coordinator — Amarante International Ltd (Mar 2021 - Aug 2022)</strong></p>
+<ul>
+<li>Coordinated 50+ high-level visits with seamless execution.</li>
+<li>Managed logistics, vendors, and stakeholder operations.</li>
+</ul></section><section class="section">
+<h2>Achievements</h2>
+<div class="skills">
+<div class="card"><strong>NGN2.3B</strong><br>Transaction Volume</div>
+<div class="card"><strong>NGN1.8B</strong><br>Annual Sales</div>
+<div class="card"><strong>NGN300M</strong><br>Revenue Generated</div>
+<div class="card"><strong>Top Performer</strong><br>Multiple Awards</div>
+</div><ul>
+<li><strong>Winich Inc (2023):</strong> Initiated and led raw cashew and sheanuts supply chain generating NGN115M profit.</li>
+<li><strong>FriskaFarms (2024):</strong> Consistently achieved NGN1M daily sales target contributing to NGN300M annual revenue.</li>
+<li><strong>Winich Inc (2024):</strong> Contributed to NGN1.8B annual sales within NGN3B total transaction volume.</li>
+<li><strong>Winich Inc (2025):</strong> Drove NGN2.3B transaction volume in agro-product supply chain.</li>
+<li><strong>Leadership:</strong> Program Lead for structured financing solutions supporting farmers and SMEs.</li>
+<li><strong>Operations:</strong> Managed nationwide network of farmers and field agents across 6 states.</li>
+</ul><p><strong>Awards:</strong> MVP Finalist (2023), Top Sales Performer (2023, 2024), Innovation Award (2024).</p></section><section class="section">
 <h2>Ready to Build Something Real?</h2>
 <p>Most opportunities don't wait. Neither should you.</p>
-<p>Let's stop admiring the problem and start building the solution.</p><form class="contact-form">
-<input type="text" placeholder="Name" required>
-<input type="email" placeholder="Email" required>
-<input type="tel" placeholder="Phone Number">
+<p>Let's stop admiring the problem and start building the solution.</p>
+<img src="peak 3.jpg" class="full">
+<form>
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<input type="text" placeholder="Phone Number">
 <textarea placeholder="Message"></textarea>
 <button>Let's Talk</button>
-</form><div class="socials">
+</form>
+</section><section id="contact" class="section">
+<h2>Contact</h2>
+<div class="contact-icons">
 <a href="mailto:kevinnemeh@gmail.com"><i class="fas fa-envelope"></i></a>
 <a href="tel:07039329206"><i class="fas fa-phone"></i></a>
-<a href="https://wa.me/23407039329206"><i class="fab fa-whatsapp"></i></a>
-<a href="https://www.linkedin.com/in/kevin-emeh"><i class="fab fa-linkedin"></i></a>
-<a href="https://www.instagram.com/kaeacee"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/23407039329206" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a href="https://www.linkedin.com/in/kevin-emeh" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.instagram.com/kaeacee" target="_blank"><i class="fab fa-instagram"></i></a>
 </div>
-<img src="peak 3.jpg" class="section-img">
-</section>
-</div><footer>
-<p>© 2026 Kevin Emeh. All Rights Reserved.</p>
+<p>Lagos, Nigeria</p>
+</section></div><footer>
+<p>© 2026 Kevin Emeh</p>
 </footer></body>
-</html>
+                                                                  </html>
